@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="true" generated="20190129 12:37:51.265" generator="Robot 3.1a2 (Python 2.7.15 on win32)">
+<suite id="s1" name="TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003">
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_001.robot" id="s1-s1" name="TC OE Lis 001">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.420" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.420" starttime="20190129 12:37:51.420"></status>
+</kw>
+<test id="s1-s1-t1" name="1ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว">
+<status status="FAIL" endtime="20190129 12:37:51.423" critical="yes" starttime="20190129 12:37:51.421">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s1-t2" name="2ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ค้างชำระ">
+<status status="FAIL" endtime="20190129 12:37:51.427" critical="yes" starttime="20190129 12:37:51.425">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s1-t3" name="3ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ยกเลิกรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.431" critical="yes" starttime="20190129 12:37:51.429">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.433" starttime="20190129 12:37:51.433"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.433" starttime="20190129 12:37:51.287">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_002.robot" id="s1-s2" name="TC OE Lis 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.446" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.446" starttime="20190129 12:37:51.446"></status>
+</kw>
+<test id="s1-s2-t1" name="4ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว">
+<status status="FAIL" endtime="20190129 12:37:51.448" critical="yes" starttime="20190129 12:37:51.446">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s2-t2" name="5ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ค้างชำระ">
+<status status="FAIL" endtime="20190129 12:37:51.452" critical="yes" starttime="20190129 12:37:51.450">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s2-t3" name="6ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ยกเลิกรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.456" critical="yes" starttime="20190129 12:37:51.454">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.458" starttime="20190129 12:37:51.457"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.458" starttime="20190129 12:37:51.435">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_001.robot" id="s1-s3" name="TC OE Lis 003 001">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.472" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.472" starttime="20190129 12:37:51.472"></status>
+</kw>
+<test id="s1-s3-t1" name="7ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว_เลือก_Checkbox_ยกเลิกรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.475" critical="yes" starttime="20190129 12:37:51.473">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.478" starttime="20190129 12:37:51.478"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.478" starttime="20190129 12:37:51.460">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_002.robot" id="s1-s4" name="TC OE Lis 003 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.492" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.492" starttime="20190129 12:37:51.492"></status>
+</kw>
+<test id="s1-s4-t1" name="8ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว_เลือก_Checkbox_ยกเลิกรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.495" critical="yes" starttime="20190129 12:37:51.492">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.496" starttime="20190129 12:37:51.496"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.496" starttime="20190129 12:37:51.480">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_004.robot" id="s1-s5" name="TC OE Lis 004">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.510" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.510" starttime="20190129 12:37:51.510"></status>
+</kw>
+<test id="s1-s5-t1" name="9ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ไม่เลือกสถานะเอกสาร">
+<status status="FAIL" endtime="20190129 12:37:51.513" critical="yes" starttime="20190129 12:37:51.510">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s5-t2" name="10ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ไม่เลือกสถานะเอกสาร">
+<status status="FAIL" endtime="20190129 12:37:51.517" critical="yes" starttime="20190129 12:37:51.515">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.519" starttime="20190129 12:37:51.519"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.519" starttime="20190129 12:37:51.498">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_001.robot" id="s1-s6" name="TC OE Sr 001 001">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.534" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.534" starttime="20190129 12:37:51.533"></status>
+</kw>
+<test id="s1-s6-t1" name="11ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหาเลขที่เอกสารที่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.536" critical="yes" starttime="20190129 12:37:51.534">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.538" starttime="20190129 12:37:51.538"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.539" starttime="20190129 12:37:51.522">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_002.robot" id="s1-s7" name="TC OE Sr 001 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.553" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.553" starttime="20190129 12:37:51.552"></status>
+</kw>
+<test id="s1-s7-t1" name="12ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหาผู้จัดจำหน่ายที่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.556" critical="yes" starttime="20190129 12:37:51.553">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.558" starttime="20190129 12:37:51.558"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.558" starttime="20190129 12:37:51.541">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_003.robot" id="s1-s8" name="TC OE Sr 001 003">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.571" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.571" starttime="20190129 12:37:51.571"></status>
+</kw>
+<test id="s1-s8-t1" name="13ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหารายละเอียดรายการที่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.574" critical="yes" starttime="20190129 12:37:51.571">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.577" starttime="20190129 12:37:51.577"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.577" starttime="20190129 12:37:51.560">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_002_001.robot" id="s1-s9" name="TC OE Sr 002 001">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.595" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.595" starttime="20190129 12:37:51.595"></status>
+</kw>
+<test id="s1-s9-t1" name="14ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหาเลขที่เอกสารที่ไม่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.598" critical="yes" starttime="20190129 12:37:51.596">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.600" starttime="20190129 12:37:51.600"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.600" starttime="20190129 12:37:51.583">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_001.robot" id="s1-s10" name="TS OE LSr 001 001">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.615" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.615" starttime="20190129 12:37:51.615"></status>
+</kw>
+<test id="s1-s10-t1" name="20ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว_ระบุรายการที่มีสถานะ_ชำระแล้ว_ในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.618" critical="yes" starttime="20190129 12:37:51.615">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.621" starttime="20190129 12:37:51.620"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.621" starttime="20190129 12:37:51.602">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_002.robot" id="s1-s11" name="TS OE LSr 001 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.636" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.636" starttime="20190129 12:37:51.635"></status>
+</kw>
+<test id="s1-s11-t1" name="21ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว_ระบุรายการที่ไม่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.638" critical="yes" starttime="20190129 12:37:51.636">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s11-t2" name="22ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ไม่เลือก_Checkbox_ระบุรายการที่มีสถานะ_ชำระแล้ว_ในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.643" critical="yes" starttime="20190129 12:37:51.640">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s11-t3" name="23ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ไม่เลือก_Checkbox_ระบุรายการที่ไม่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.647" critical="yes" starttime="20190129 12:37:51.645">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.650" starttime="20190129 12:37:51.649"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.650" starttime="20190129 12:37:51.623">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_001.robot" id="s1-s12" name="TS OE LSr 002 001">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.664" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.664" starttime="20190129 12:37:51.664"></status>
+</kw>
+<test id="s1-s12-t1" name="24ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว_ระบุรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.667" critical="yes" starttime="20190129 12:37:51.664">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s12-t2" name="26ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ไม่เลือก_Checkbox_ระบุรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.672" critical="yes" starttime="20190129 12:37:51.669">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.673" starttime="20190129 12:37:51.673"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.673" starttime="20190129 12:37:51.652">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_002.robot" id="s1-s13" name="TS OE LSr 002 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.687" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.687" starttime="20190129 12:37:51.687"></status>
+</kw>
+<test id="s1-s13-t1" name="25ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_เลือก_Checkbox_ชำระแล้ว_ไม่ระบุรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.689" critical="yes" starttime="20190129 12:37:51.687">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<test id="s1-s13-t2" name="27ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ไม่เลือก_Checkbox_ไม่ระบุรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.694" critical="yes" starttime="20190129 12:37:51.691">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.695" starttime="20190129 12:37:51.695"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.695" starttime="20190129 12:37:51.675">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_002.robot" id="s1-s14" name="TS OE Sr 002 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.711" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.711" starttime="20190129 12:37:51.711"></status>
+</kw>
+<test id="s1-s14-t1" name="15ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหาผู้จัดจำหน่ายที่ไม่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.714" critical="yes" starttime="20190129 12:37:51.711">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.716" starttime="20190129 12:37:51.716"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.716" starttime="20190129 12:37:51.698">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_003.robot" id="s1-s15" name="TS OE Sr 002 003">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.729" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.729" starttime="20190129 12:37:51.729"></status>
+</kw>
+<test id="s1-s15-t1" name="16ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหารายละเอียดรายการที่ไม่มีในระบบ">
+<status status="FAIL" endtime="20190129 12:37:51.732" critical="yes" starttime="20190129 12:37:51.729">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.736" starttime="20190129 12:37:51.735"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.736" starttime="20190129 12:37:51.719">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_001.robot" id="s1-s16" name="TS OE Sr 003 001">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.749" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.749" starttime="20190129 12:37:51.749"></status>
+</kw>
+<test id="s1-s16-t1" name="17ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหาเลขที่เอกสาร">
+<status status="FAIL" endtime="20190129 12:37:51.751" critical="yes" starttime="20190129 12:37:51.749">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.754" starttime="20190129 12:37:51.753"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.754" starttime="20190129 12:37:51.738">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_002.robot" id="s1-s17" name="TS OE Sr 003 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.768" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.768" starttime="20190129 12:37:51.767"></status>
+</kw>
+<test id="s1-s17-t1" name="18ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหาผู้จัดจำหน่าย">
+<status status="FAIL" endtime="20190129 12:37:51.770" critical="yes" starttime="20190129 12:37:51.768">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.773" starttime="20190129 12:37:51.773"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.773" starttime="20190129 12:37:51.756">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<suite source="d:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_003.robot" id="s1-s18" name="TS OE Sr 003 003">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190129 12:37:51.785" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190129 12:37:51.785" starttime="20190129 12:37:51.785"></status>
+</kw>
+<test id="s1-s18-t1" name="19ตรวจสอบการแสดงรายการ_โดยมีเงื่อนไขดังนี้_ค้นหารายละเอียดรายการ">
+<status status="FAIL" endtime="20190129 12:37:51.788" critical="yes" starttime="20190129 12:37:51.785">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190129 12:37:51.790" starttime="20190129 12:37:51.790"></status>
+</kw>
+<status status="FAIL" endtime="20190129 12:37:51.790" starttime="20190129 12:37:51.775">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<status status="FAIL" endtime="20190129 12:37:51.793" starttime="20190129 12:37:51.268"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="27" pass="0">Critical Tasks</stat>
+<stat fail="27" pass="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="27" id="s1" name="TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003</stat>
+<stat fail="3" id="s1-s1" name="TC OE Lis 001" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Lis 001</stat>
+<stat fail="3" id="s1-s2" name="TC OE Lis 002" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Lis 002</stat>
+<stat fail="1" id="s1-s3" name="TC OE Lis 003 001" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Lis 003 001</stat>
+<stat fail="1" id="s1-s4" name="TC OE Lis 003 002" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Lis 003 002</stat>
+<stat fail="2" id="s1-s5" name="TC OE Lis 004" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Lis 004</stat>
+<stat fail="1" id="s1-s6" name="TC OE Sr 001 001" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Sr 001 001</stat>
+<stat fail="1" id="s1-s7" name="TC OE Sr 001 002" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Sr 001 002</stat>
+<stat fail="1" id="s1-s8" name="TC OE Sr 001 003" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Sr 001 003</stat>
+<stat fail="1" id="s1-s9" name="TC OE Sr 002 001" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TC OE Sr 002 001</stat>
+<stat fail="1" id="s1-s10" name="TS OE LSr 001 001" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE LSr 001 001</stat>
+<stat fail="3" id="s1-s11" name="TS OE LSr 001 002" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE LSr 001 002</stat>
+<stat fail="2" id="s1-s12" name="TS OE LSr 002 001" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE LSr 002 001</stat>
+<stat fail="2" id="s1-s13" name="TS OE LSr 002 002" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE LSr 002 002</stat>
+<stat fail="1" id="s1-s14" name="TS OE Sr 002 002" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE Sr 002 002</stat>
+<stat fail="1" id="s1-s15" name="TS OE Sr 002 003" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE Sr 002 003</stat>
+<stat fail="1" id="s1-s16" name="TS OE Sr 003 001" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE Sr 003 001</stat>
+<stat fail="1" id="s1-s17" name="TS OE Sr 003 002" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE Sr 003 002</stat>
+<stat fail="1" id="s1-s18" name="TS OE Sr 003 003" pass="0">TC OE Lis 001 &amp; TC OE Lis 002 &amp; TC OE Lis 003 001 &amp; TC OE Lis 003 002 &amp; TC OE Lis 004 &amp; TC OE Sr 001 001 &amp; TC OE Sr 001 002 &amp; TC OE Sr 001 003 &amp; TC OE Sr 002 001 &amp; TS OE LSr 001 001 &amp; TS OE LSr 001 002 &amp; TS OE LSr 002 001 &amp; TS OE LSr 002 002 &amp; TS OE Sr 002 002 &amp; TS OE Sr 002 003 &amp; TS OE Sr 003 001 &amp; TS OE Sr 003 002 &amp; TS OE Sr 003 003.TS OE Sr 003 003</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190129 12:37:51.401" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_001.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.401" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.401" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.401" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.401" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.437" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.438" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.439" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.440" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.441" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.462" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_001.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.463" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.465" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.466" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.467" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.482" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.483" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.484" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.485" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.486" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.500" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_004.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.501" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_004.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.502" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_004.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.503" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_004.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.504" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Lis_004.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.524" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_001.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.525" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.526" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.527" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.528" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.543" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.544" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.545" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.546" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.547" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.562" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_003.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.563" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.564" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.565" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.566" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_001_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.585" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_002_001.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.587" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.588" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.589" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.590" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TC_OE_Sr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.604" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_001.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.605" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.606" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.607" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.610" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.625" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.626" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.627" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.628" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.629" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_001_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.654" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_001.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.655" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.657" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.658" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.659" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.677" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.678" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.679" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.680" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.681" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_LSr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.700" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.701" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.702" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.704" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.705" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.720" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_003.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.721" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.722" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.723" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.724" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_002_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.740" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_001.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.741" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.741" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.742" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.743" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_001.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.758" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.759" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.760" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.760" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.762" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_002.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.777" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_003.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190129 12:37:51.778" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.779" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.780" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+<msg timestamp="20190129 12:37:51.780" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense\TS_OE_Sr_003_003.robot': Replacing variables from setting 'Resource' failed: Variable '${Path_Environment}' not found.</msg>
+</errors>
+</robot>
