@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20181030 15:33:14.291" generator="Robot 3.1a2 (Python 2.7.15 on win32)">
+<suite source="d:\DGL For SME\Case\Login Case\login_pass_testcase.robot" id="s1" name="Login Pass Testcase">
+<kw type="setup" name="Open the web page" library="dglforsme">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${open_url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20181030 15:33:14.646" level="INFO">Opening browser 'chrome' to base url 'https://dgl-acct.addtechhub.com'.</msg>
+<status status="PASS" endtime="20181030 15:33:19.473" starttime="20181030 15:33:14.645"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20181030 15:33:20.627" starttime="20181030 15:33:19.473"></status>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0</arg>
+</arguments>
+<status status="PASS" endtime="20181030 15:33:20.628" starttime="20181030 15:33:20.627"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:20.628" starttime="20181030 15:33:14.645"></status>
+</kw>
+<test id="s1-t1" name="8ตรวจสอบการเข้าสู่ระบบ_กรณี_Email_Password_ถูกต้อง">
+<kw type="setup" name="Go to login page" library="dglforsme">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${login_url}</arg>
+</arguments>
+<msg timestamp="20181030 15:33:20.632" level="INFO">Opening url 'https://dgl-acct.addtechhub.com/login'</msg>
+<status status="PASS" endtime="20181030 15:33:22.502" starttime="20181030 15:33:20.632"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:22.502" starttime="20181030 15:33:20.631"></status>
+</kw>
+<kw name="Log In Pass Validate" library="login_pass">
+<arguments>
+<arg>test@gmail.com</arg>
+<arg>123123</arg>
+<arg>Dharmniti Genaral Ledger</arg>
+<arg>Login Case</arg>
+</arguments>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.3</arg>
+</arguments>
+<status status="PASS" endtime="20181030 15:33:22.505" starttime="20181030 15:33:22.505"></status>
+</kw>
+<kw name="Set Directory" library="dglforsme">
+<arguments>
+<arg>${image_name}</arg>
+</arguments>
+<kw name="Get DateTime" library="dglforsme">
+<assign>
+<var>${Date}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H-%M-%S</arg>
+</arguments>
+<assign>
+<var>${date current}</var>
+</assign>
+<msg timestamp="20181030 15:33:22.509" level="INFO">${date current} = 2018-10-30 15-33-22</msg>
+<status status="PASS" endtime="20181030 15:33:22.509" starttime="20181030 15:33:22.507"></status>
+</kw>
+<msg timestamp="20181030 15:33:22.510" level="INFO">${Date} = 2018-10-30 15-33-22</msg>
+<status status="PASS" endtime="20181030 15:33:22.510" starttime="20181030 15:33:22.506"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Date}</arg>
+</arguments>
+<status status="PASS" endtime="20181030 15:33:22.511" starttime="20181030 15:33:22.510"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${Path}</arg>
+<arg>${Output_url}/${image_name} ${Date}</arg>
+</arguments>
+<msg timestamp="20181030 15:33:22.513" level="INFO">${Path} = /DGL For SME/Screen/Login Case 2018-10-30 15-33-22</msg>
+<status status="PASS" endtime="20181030 15:33:22.513" starttime="20181030 15:33:22.511"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:22.513" starttime="20181030 15:33:22.505"></status>
+</kw>
+<kw name="Capture Screen" library="dglforsme">
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<arguments>
+<arg>${Path}/${TEST_NAME}{index}.${Type of file}</arg>
+</arguments>
+<msg timestamp="20181030 15:33:23.348" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../Screen/Login%20Case%202018-10-30%2015-33-22/8%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A_%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5_Email_Password_%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%871.png"&gt;&lt;img src="../../Screen/Login%20Case%202018-10-30%2015-33-22/8%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A_%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5_Email_Password_%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%871.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181030 15:33:23.348" starttime="20181030 15:33:22.513"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:23.348" starttime="20181030 15:33:22.513"></status>
+</kw>
+<kw name="Input User" library="login_page">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://form/input[1]</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20181030 15:33:23.353" level="INFO">Typing text 'test@gmail.com' into text field 'xpath://form/input[1]'.</msg>
+<status status="PASS" endtime="20181030 15:33:24.502" starttime="20181030 15:33:23.348"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:24.502" starttime="20181030 15:33:23.348"></status>
+</kw>
+<kw name="Input Password" library="login_page">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://form/input[2]</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20181030 15:33:24.505" level="INFO">Typing text '123123' into text field 'xpath://form/input[2]'.</msg>
+<status status="PASS" endtime="20181030 15:33:25.726" starttime="20181030 15:33:24.504"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:25.726" starttime="20181030 15:33:24.503"></status>
+</kw>
+<kw name="Capture Screen" library="dglforsme">
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<arguments>
+<arg>${Path}/${TEST_NAME}{index}.${Type of file}</arg>
+</arguments>
+<msg timestamp="20181030 15:33:26.459" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../Screen/Login%20Case%202018-10-30%2015-33-22/8%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A_%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5_Email_Password_%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%872.png"&gt;&lt;img src="../../Screen/Login%20Case%202018-10-30%2015-33-22/8%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A_%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5_Email_Password_%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%872.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181030 15:33:26.459" starttime="20181030 15:33:25.727"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:26.459" starttime="20181030 15:33:25.727"></status>
+</kw>
+<kw name="Login Submit" library="login_page">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[2]</arg>
+</arguments>
+<msg timestamp="20181030 15:33:26.463" level="INFO">Clicking button 'xpath://button[2]'.</msg>
+<status status="PASS" endtime="20181030 15:33:28.152" starttime="20181030 15:33:26.459"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:28.152" starttime="20181030 15:33:26.459"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${logic}</arg>
+</arguments>
+<status status="PASS" endtime="20181030 15:33:28.554" starttime="20181030 15:33:28.153"></status>
+</kw>
+<kw name="Capture Screen" library="dglforsme">
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<arguments>
+<arg>${Path}/${TEST_NAME}{index}.${Type of file}</arg>
+</arguments>
+<msg timestamp="20181030 15:33:29.214" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../Screen/Login%20Case%202018-10-30%2015-33-22/8%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A_%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5_Email_Password_%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%873.png"&gt;&lt;img src="../../Screen/Login%20Case%202018-10-30%2015-33-22/8%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A_%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5_Email_Password_%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%873.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181030 15:33:29.214" starttime="20181030 15:33:28.554"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:29.215" starttime="20181030 15:33:28.554"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:29.216" starttime="20181030 15:33:22.504"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:29.218" critical="yes" starttime="20181030 15:33:20.628"></status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20181030 15:33:31.607" starttime="20181030 15:33:29.221"></status>
+</kw>
+<status status="PASS" endtime="20181030 15:33:31.607" starttime="20181030 15:33:14.300"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Login Pass Testcase" pass="1">Login Pass Testcase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
