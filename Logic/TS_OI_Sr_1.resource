@@ -16,7 +16,6 @@ OI Check Search 1
     Capture Screen
     Login Submit                 
     Wait Until Element Is Visible           ${logic}
-    Element Should Contain      ${logic}       ${logic_title} 
     Capture Screen
     Click Tab Sell
     Capture Screen

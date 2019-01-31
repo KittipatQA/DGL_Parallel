@@ -8,9 +8,7 @@ ${login_url}         ${open_url}/login
 ${Path_Environment}     /Users/user-1/.jenkins/workspace/DGL_Parallel           
 ${Output_url}        ${Path_Environment}/Screen
 ${Type of file}      png
-${title}             DGL Accounting
-${logic}             //*[@class="title"] 
-${logic_title}       :Dgl Account
+${logic}             //*[@class="title"]
            
 *** Keywords ***
 Open the web page
