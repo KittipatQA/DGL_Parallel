@@ -6,7 +6,7 @@ Resource             /Users/user-1/.jenkins/workspace/DGL_Parallel/Resource/dglf
 
 *** Keywords ***
 
-OI Check Search 0
+OI Check Search 3
     [Arguments]            ${username}    ${password}       ${image_name}       ${data}
     Set Selenium Speed     0.5
     Set Directory          ${image_name}
