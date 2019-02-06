@@ -62,6 +62,21 @@ Input discount
     Clear Element Text      id:input-oi-transactions-discount-0        
     Input Text      id:input-oi-transactions-discount-0     ${discount}
 
+Input bindingexpenseInfo2
+    [Arguments]     ${no_bindingexpenseInfo2}              
+    Input Text      id:input-oi-transactions-bindingrevenueInfo-1       ${no_bindingexpenseInfo2}
+    Click Element       xpath://span[@class="ngb-highlight ng-star-inserted"]
+
+Input number2
+    [Arguments]     ${qty2}
+    Clear Element Text      id:input-oi-transactions-qty-1               
+    Input Text      id:input-oi-transactions-qty-1     ${qty2}
+
+Input discount2
+    [Arguments]     ${discount2}     
+    Clear Element Text      id:input-oi-transactions-discount-1        
+    Input Text      id:input-oi-transactions-discount-1     ${discount2}
+
 Input Vat
     [Arguments]     ${vatPercentage}              
     Input Text      id:sl-oi-transactions-vatPercentage-0     ${vatPercentage}
@@ -80,24 +95,40 @@ Input paymentCash
     Input Text      id:input-oi-detail-paymentCashAmount    ${paymentCashAmount}
 
 Get paymentCash
-    ${payment_Cash}=       Get Value      id:input-oi-detail-paymentCashAmount
-    Log To Console      ${payment_Cash}
-    Set Suite Variable      ${payment_Cash}
+    ${payment_Cash_input}=       Get Value      id:input-oi-detail-paymentCashAmount
+    Float Change 3      ${payment_Cash_input}             
+    ${payment_Cash} =       Set Variable        ${type_float_3}
+    Set Suite Variable      ${payment_Cash}             
 
 Input Price
     [Arguments]     ${price}    
     Clear Element Text      id:input-oi-transactions-unitPrice-0    
     Input Text      id:input-oi-transactions-unitPrice-0    ${price}
 
+Input Price 2
+    [Arguments]     ${price2}    
+    Clear Element Text      id:input-oi-transactions-unitPrice-1    
+    Input Text      id:input-oi-transactions-unitPrice-1    ${price2}
+
 Get Price
     ${price_now}=       Get Value      id:input-oi-transactions-unitPrice-0
     Log To Console      ${price_now}
     Set Suite Variable      ${price_now}
 
+Get Price 2
+    ${price_now2}=       Get Value      id:input-oi-transactions-unitPrice-1
+    Log To Console      ${price_now2}
+    Set Suite Variable      ${price_now2}
+
 Get Discount
     ${discount_now}=       Get Value      id:input-oi-transactions-discount-0
     Log To Console      ${discount_now}
     Set Suite Variable      ${discount_now}
+
+Get Discount 2
+    ${discount_now2}=       Get Value      id:input-oi-transactions-discount-1
+    Log To Console      ${discount_now2}
+    Set Suite Variable      ${discount_now2}
 
 Get Tax Amount
     ${tax_amount}=       Get Value      id:input-oi-transactions-taxAmount-0
@@ -114,8 +145,16 @@ Check total exempt
     Log To Console      ${price_exempt}
     Set Suite Variable      ${price_exempt}
 
+Check total amount
+    ${last_price_total_amount_input}=        Get Value      id:show-oi-total-amount
+    Replace     ${last_price_total_amount_input}
+    Float Change 1
+    ${last_price_total_amount} =        Set Variable        ${type_float_1}        
+    Log To Console      Test:${last_price_total_amount}
+    Set Suite Variable      ${last_price_total_amount}
+         
 Check total before vat
-    ${price_before_vat}=        Get Text      id:show-oi-total-before-vat
+    ${price_before_vat}=        Get Value      id:show-oi-total-before-vat
     Log To Console       this:  ${price_before_vat}
     Set Suite Variable      ${price_before_vat}
 
@@ -148,6 +187,12 @@ Check amount
     Log To Console      ${vat_amount}
     Set Suite Variable      ${vat_amount}
 
+Check tax amount
+    ${tax_amount}=        Get Value      id:input-oi-detail-taxAmount
+    Log To Console      ${tax_amount}
+    Set Suite Variable      ${tax_amount}
+
+
 Calculator No vatType
     Get Price
     Check total before vat
@@ -157,11 +202,80 @@ Calculator No vatType
     Get Discount
     Check Discount
     Check total exempt
+    Check total amount
+    #Check with holding
+    Get paymentCash
+    Should Be Equal As Strings      ${price_now}      ${price_exempt}             
+    Should Be Equal As Strings      ${price_result}     ${discount_now}     ${price_before_vat}           
+    Should Be Equal As Strings      ${last_price_total_amount}       ${payment_Cash}        
+
+Calculator No vatType And Discount
+    Calculator includeVat
+    Check total before vat
+    #Check net amount
+    Check amount
+    #Check transactions before vat
+    Get Discount
+    Check Discount
+    Check total exempt
+    Check total amount
     Get paymentCash
     #Check with holding 
-    Should Be Equal As Strings      ${price_now}      ${price_exempt}             
-    Should Be Equal As Strings      ${price_before_vat}    ${price_result}     ${discount_now}           
-    #Should Be Equal As Strings      ${payment_Cash}        ${price_before_vat}            
+    Should Be Equal As Strings      ${return_current}      ${price_exempt}             
+    Should Be Equal As Strings      ${price_result}     ${discount_now}     ${price_before_vat}           
+    Should Be Equal As Strings      ${payment_Cash}        ${last_price_total_amount}
+
+Calculator No vatType More List And Discount 
+    Calculator includeVat
+    Check net amount
+    Check amount
+    #Check transactions before vat
+    Get Discount
+    Check Discount
+    Check total exempt
+    Check total amount
+    Get paymentCash
+    Check total before vat
+    #Check with holding 
+    Should Be Equal As Strings      ${return_current}      ${price_exempt}             
+    Should Be Equal As Strings      ${price_result}     ${discount_now}     #${price_before_vat}           
+    #Should Be Equal As Strings      ${payment_Cash}        ${price_before_vat} 
+
+Calculator More List Discount
+    Get Discount
+    Replace     ${discount_now}
+    Float Change 1
+    Get Discount 2
+    Replace     ${discount_now2}
+    Float Change 2
+    Verify addition of ${type_float_1} and ${type_float_2}
+    Convert     ${calculated_result}
+    Get Price
+    Replace     ${price_now}
+    Float Change 1
+    Get Price 2
+    Replace     ${price_now2}
+    Float Change 2
+    Verify addition of ${type_float_1} and ${type_float_2}
+    Convert2     ${calculated_result}
+    Replace     ${return_current}
+    Float Change 1
+    Replace     ${return_current2}
+    Float Change 2
+    Verify subtraction of ${type_float_2} and ${type_float_1}
+    Check amount
+    Check total exempt
+    Check tax amount
+    Get paymentCash
+    Check total amount
+    Check total before vat
+    Convert     ${calculated_result}
+    Should Be Equal As Strings      ${vat_amount}      ${price_exempt}             
+    Should Be Equal As Strings      ${price_before_vat}   ${tax_amount}        
+    Should Be Equal As Strings      ${payment_Cash}        ${last_price_total_amount}
+
+
+                
 
 Calculator includeVatType
     Get Price
@@ -203,7 +317,7 @@ Compare taxAmount
     Should Be Equal As Strings      ${return_current}     ${tax_amount}
 
 Check Status After Add
-    ${status_list}=   Get Text     //*[@id="sl-oi-detail-0"]/div[7]/label
+    ${status_list}=   Get Text     //*[@id="sl-oe-detail-0"]/div[7]
     Set Suite Variable      ${status_list}
     Log To Console      ${status_list}
 
@@ -233,7 +347,12 @@ Float Change 1
 
 Float Change 2
         ${type_float_2} =      Convert To Number        ${no_comma}
-        Set Suite Variable      ${type_float_2}     
+        Set Suite Variable      ${type_float_2} 
+
+Float Change 3
+        [Arguments]     ${input_value}
+        ${type_float_3} =      Convert To Number        ${input_value}      
+        Set Suite Variable      ${type_float_3}     
 
 Calculator includeVat
     Get Price
@@ -244,3 +363,4 @@ Calculator includeVat
     Float Change 2
     Verify subtraction of ${type_float_1} and ${type_float_2}
     Convert     ${calculated_result}
+

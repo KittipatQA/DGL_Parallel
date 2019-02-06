@@ -1,0 +1,53 @@
+*** Settings ***
+Library              SeleniumLibrary
+Resource             /Users/USER1/.jenkins/workspace/DGL_Parallel/Resource/dglforsme.resource
+
+*** Variables ***
+
+*** Keywords ***
+
+OI Add Data 3
+      [Arguments]            ${username}      ${password}       ${image_name}     ${supplier_code}          ${transaction_date}         ${detail_description}        ${no_bindingexpenseInfo}           ${no_bindingexpenseInfo2}              ${qty}            ${qty2}           ${price}          ${price2}            ${discount}         ${discount2}       ${paymentCashAmount}      ${status_after_add}                          
+      Set Selenium Speed     0.6
+      Set Directory          ${image_name}
+      Capture Screen
+      Input User             ${username}
+      Input Password         ${password}
+      Capture Screen
+      Login Submit                 
+      Wait Until Element Is Visible           ${logic}
+      Capture Screen
+      Click Tab Sell
+      Capture Screen
+      Click Tab otherRevenue
+      ${columnbefore}=       Get Element Count        //*[contains(@id, 'sl-oe-detail')]
+      Click Btn Add
+      Capture Screen
+      Input Supplier Code     ${supplier_code}
+      #Select Vat Type     ${data_list}
+      Input transactionDate       ${transaction_date}
+      Input bindingexpenseInfo            ${no_bindingexpenseInfo}            
+      Input description    ${detail_description}
+      #Input list
+      Input number      ${qty}
+      Input Price    ${price}
+      Input discount    ${discount}
+
+      Input bindingexpenseInfo2            ${no_bindingexpenseInfo2}  
+      #Input list
+      Input number2      ${qty2}
+      Input Price2    ${price2}
+      Input discount2    ${discount2}
+      #Input taxAmount      ${taxAmountlist}
+      Input paymentCash    ${paymentCashAmount}
+      Calculator More List Discount
+      Capture Screen
+      Click Btn Submit
+      Click Btn Confirm
+      Click Btn Ok
+      Set Suite Variable       ${status_true}   สถานะถูกต้อง
+      Set Suite Variable       ${status_fail}   สถานะไม่ถูกต้อง
+      ${columnafter}=       Get Element Count        //*[contains(@id, 'sl-oe-detail')]
+      Run Keyword If       ${columnafter}>${columnbefore}        Log To Console      ${status_true}       ELSE        fail  ${columnafter} : ${status_fail}
+      Check Payment status    ${status_after_add}
+      Capture Screen
