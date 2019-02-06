@@ -27,7 +27,6 @@ Select Vat Type
 Input transactionDate
     [Arguments]     ${transaction_date}
     Clear Element Text      id:input-oi-detail-transactionDate           
-    Input Text      id:input-oi-detail-transactionDate     ${transaction_date}
 
 Input datePickerDueDate
     [Arguments]     ${datePickerDueDate}
@@ -55,7 +54,6 @@ Input list
 Input number
     [Arguments]     ${qty}
     Clear Element Text      id:input-oi-transactions-qty-0                    
-    Input Text      id:input-oi-transactions-qty-0     ${qty}
 
 Input discount
     [Arguments]     ${discount}     
@@ -70,7 +68,6 @@ Input bindingexpenseInfo2
 Input number2
     [Arguments]     ${qty2}
     Clear Element Text      id:input-oi-transactions-qty-1               
-    Input Text      id:input-oi-transactions-qty-1     ${qty2}
 
 Input discount2
     [Arguments]     ${discount2}     
